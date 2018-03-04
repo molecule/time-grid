@@ -11,9 +11,9 @@
 
 @media screen and (min-width: 600px) {
 	.site {
-		grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+		grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
 		grid-template-areas:
-			"title title title"
+			"title title title title title title title title"
 			"sidebar main masthead"
 			"sidebar main footer";
 	}
@@ -25,6 +25,7 @@
 
 .page-title {
 	grid-area: title;
+	grid-column: 1/8;
 }
 
 .main-content {
