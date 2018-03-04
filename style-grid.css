@@ -1,18 +1,19 @@
 .site {
 	display: grid;
-	grid-template-columns: 1fr repeat(7, 2fr);
-	grid-template-rows: 1fr 1fr repeat(40, 0.2fr);
+	grid-template-columns: 1fr 0.2fr repeat(7, 2fr);
+	grid-template-rows: 0.2fr 0.2fr repeat(40, 0.2fr);
 	grid-template-areas:
-		"title title title title title title title title"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"sidebar sun mon tue wed thu fri sat"
-		"footer footer footer footer footer footer footer footer"
+		"title title title title title title title title title"
+		"sidebar time sun mon tue wed thu fri sat"
+		"sidebar time sun mon tue wed thu fri sat"
+		"sidebar time sun mon tue wed thu fri sat"
+		"sidebar time sun mon tue wed thu fri sat"
+		"sidebar time sun mon tue wed thu fri sat"
+		"footer footer footer footer footer footer footer footer footer"
+}
+
+.time {
+	grid-area: time;
 }
 
 .masthead {
@@ -21,6 +22,10 @@
 
 .page-title {
 	grid-area: title;
+}
+
+.kvart {
+	grid-area: kvart;
 }
 
 .sunday {
