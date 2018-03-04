@@ -5,10 +5,11 @@
 	grid-template-areas:
 		"title title title title title title title title title"
 		"sidebar time sun mon tue wed thu fri sat"
-		"sidebar time sun mon tue wed thu fri sat"
-		"sidebar time sun mon tue wed thu fri sat"
-		"sidebar time sun mon tue wed thu fri sat"
-		"sidebar time sun mon tue wed thu fri sat"
+		"sidebar time kvart-col1 mon tue wed thu fri sat"
+		"sidebar time kvart mon tue wed thu fri sat"
+		"sidebar time kvart mon tue wed thu fri sat"
+		"sidebar time kvart mon tue wed thu fri sat"
+		"sidebar time kvart mon tue wed thu fri sat"
 		"footer footer footer footer footer footer footer footer footer"
 }
 
@@ -24,8 +25,9 @@
 	grid-area: title;
 }
 
-.kvart {
-	grid-area: kvart;
+.kvart-col1 {
+	grid-area: kvart-col1;
+	background-color: #0265c0;
 }
 
 .sunday {
